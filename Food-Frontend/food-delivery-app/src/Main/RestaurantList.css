@@ -1,0 +1,48 @@
+/* RestaurantList.css */
+
+/* This is for the main background and layout */
+.restaurant-list {
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    padding: 2rem;
+  }
+  
+  /* Styling for the table */
+  .restaurant-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .restaurant-table th,
+  .restaurant-table td {
+    padding: 1rem;
+    border: 1px solid #e5e7eb;
+    text-align: left;
+  }
+  
+  .restaurant-table th {
+    background-color: #f3f4f6;
+    color: #374151;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  
+  .restaurant-table tbody tr:nth-child(even) {
+    background-color: #f9fafb;
+  }
+  
+  /* Button and search bar styling */
+  .button-add {
+    background-color: #1f2937;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 0.375rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .button-add:hover {
+    background-color: #111827;
+  }
+  
